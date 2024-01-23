@@ -5,13 +5,13 @@ Como cliente da EBAC-SHOP
 Quero fazer concluir meu cadastro
 Para finalizar minha compra
 
-Contexto:  Dado que eu acesse a página de cliente EBAC-SHOP
+Contexto: Dado que eu acesse a página de cliente EBAC-SHOP
 
-Cenário: Deve ser cadastrado com todos os dados obrigatórios, marcado com asteriscos
-Quando eu preencher todos os dados no "Campo Obrigatório" marcados com asteriscos 
-Então deve exibir a mensagem "Cadastro realizado com Sucesso!"
+Cenário: Deve ser cadastrado com todos os dados obrigatórios, marcados com asteriscos
+Quando eu preencher todos os dados no "Campo obrigatório" marcados com asteriscos
+Então deve exibir a mensagem "Cadastro realizado com sucesso!"
 
-Cenario: Não permitir dados inválidos ou campos vazios
-Quando eu não preencher os dados no "Campo Obrigatório" com dados válidos
-Então deve exibir uma <mensagem> de alerta "Campo Obrigatório não preenchido"
+Cenário: Nãp permitir dados inválidos ou campos vzaios
+Quando eu não preencher todos os dados no "Campo obrigatório" com dados válidos
+Então deve exibir a uma <mensagem> de alerta "Campo obrigatório não preenchido"
 
